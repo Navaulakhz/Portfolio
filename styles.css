@@ -1,0 +1,237 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the fixed header */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #895dab;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+ .logo {
+    height: 5%;
+    width: 12%;
+
+ }
+.fixed-header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.fixed-header nav ul li {
+    margin-right: 20px;
+}
+
+.fixed-header nav ul li:last-child {
+    margin-right: 0;
+}
+
+.fixed-header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.fixed-header nav ul li a:hover {
+    color: #ff4500;
+}
+
+/* Style the cover page */
+.cover-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('f.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+.cover-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+}
+
+.cover-page p {
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+/* Style full window sections */
+.full-window-section {
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+.full-window-section h2 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+/* Style the Contact section */
+#contact {
+    background-color: #fff;
+    color: #333;
+}
+/* Add responsive styling for the logo */
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add scroll-up action to hide the cover page */
+.scroll-up-hidden {
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+}
+/* Add hover properties for all sections */
+.full-window-section:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+    transform: scale(1.05);
+}
+
+/* Style the Contact section */
+#contact {
+    background-color: #d5aaf6;
+    color: #333;
+}
+
+/* Style the contact form */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #ff5722;
+}
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+.success-message {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+#previous-projects {
+    background-image: url('e.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; 
+    padding: 60px 0; 
+}
+
+/* Style the project subsections */
+.project-subsection {
+    background-color: rgba(59, 211, 211, 0.8);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    color: #fff;
+}
+
+.project-subsection:hover {
+    background-color: #bf80ea; /* Change background color on hover */
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.project-subsection h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+/* Style the footer section */
+footer {
+    background-color: #895dab;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the footer content */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin: 10px 0;
+}
+
+
+#portfolio {
+    background-color: #d5aaf6; 
+    color: #fdfafa;
+    font-size: 115%; 
+    text-align: justify;
+}
+
