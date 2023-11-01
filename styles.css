@@ -231,7 +231,30 @@ footer {
 #portfolio {
     background-color: #d5aaf6; 
     color: #fdfafa;
-    font-size: 0.7em; 
+    font-size: 115%;
+
     text-align: justify;
+    max-height: 900px;
+    
+    
+}
+@media (max-width: 480px) {
+    #portfolio {
+        font-size: 100%;
+        max-height: auto; /* Adjust as needed */
+    }
 }
 
+/* Medium devices (tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+    #portfolio {
+        font-size: 110%;
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 769px) {
+    #portfolio {
+        font-size: 115%;
+    }
+}
