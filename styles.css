@@ -267,8 +267,8 @@ footer {
     }
 }
 #portfolio > p {
-    color: #693890; /* Adjusted the foreground color to achieve the required contrast ratio */
-    background-color: #d5aaf6;
+    color: #602d7d; /* Adjusted foreground color to darken it */
+    background-color: #d5aaf6; 
     font-size: 17.6px;
     font-weight: normal;
 }
