@@ -291,28 +291,10 @@ footer {
         width: 95%; /* making the paragraph a bit wider on small screens */
     }
 }
-@media (min-width: 600px) and (max-width: 1024px) {
-    #portfolio > p {
-        font-size: 1.1em;
-    }
-}
-@media (min-width: 600px) and (max-width: 1024px) {
-    #portfolio > p {
-        padding: 15px;
-        margin: 0 auto;
-    }
-}
 
-@media (min-width: 600px) and (max-width: 1024px) {
-    #portfolio > p img {
-        max-width: 100%;
-        height: auto;
-    }
-}
-@media (min-width: 600px) and (max-width: 1024px) {
-    #portfolio > p {
-        column-count: 2;
-        column-gap: 20px;
-    }
-}
 
+ @media (min-width: 600px) and (max-width: 1024px) {
+            #portfolio > p {
+                font-size: 8px; /* increasing font size for tablet view */
+                padding: 15px;
+            }
