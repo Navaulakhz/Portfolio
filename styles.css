@@ -267,10 +267,11 @@ footer {
     }
 }
 #portfolio > p {
-    color: #5e2971;  /* Darkened foreground color for better contrast */
-    background-color: #d5aaf6; 
+    color: #8a4ca0;  
+    background-color: #ebe2fd;  /* Lightened background color for better contrast */
     font-size: 17.6px;
     font-weight: normal;
 }
+
 
 
