@@ -274,4 +274,15 @@ footer {
 }
 
 
+@media (max-width: 480px) {
+    #portfolio > p {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+@media (max-width: 768px) {
+    #portfolio > p {
+        font-size: 16px;
+    }
+}
 
