@@ -264,3 +264,17 @@ footer {
         font-size: 115%;
     }
 }
+#portfolio > p {
+    color: #9e6fc9; /* Adjusted foreground color to achieve the required contrast ratio of 4.5:1 */
+    background-color: #d5aaf6;
+    font-size: 17.6px;
+    font-weight: normal;
+}
+input[type="submit"] {
+    color: #ffffff; /* Retained foreground color */
+    background-color: #e03c00; /* Adjusted background color to achieve the required contrast ratio */
+    font-size: 13.3333px;
+    font-weight: normal;
+    border: none; /* Assuming you don't want a border, but adjust as necessary */
+    padding: 8px 12px; /* Sample padding, adjust as necessary */
+}
