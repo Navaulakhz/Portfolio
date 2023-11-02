@@ -267,7 +267,7 @@ footer {
     }
 }
 #portfolio > p {
-    color: #6c317b; /* Adjusted foreground color to darken it */
+    color: #5e2971;  /* Darkened foreground color for better contrast */
     background-color: #d5aaf6; 
     font-size: 17.6px;
     font-weight: normal;
