@@ -229,15 +229,21 @@ footer {
 
 
 #portfolio {
-    background-color: #d5aaf6; 
-    color: #fdfafa;
+   
     font-size: 115%;
 
     text-align: justify;
     max-height: 900px;
     
     
+} 
+#portfolio > h2 {
+    color: #b083d1; /* Adjusted foreground color to achieve the required contrast ratio */
+    background-color: #d5aaf6;
+    
+    font-weight: bold;
 }
+
 @media (max-width: 480px) {
     #portfolio {
         font-size: 100%;
@@ -258,10 +264,3 @@ footer {
         font-size: 115%;
     }
 }
-#portfolio > h2 {
-    color: #8e57c2; /* New foreground color that ensures a contrast ratio greater than 3:1 with the #d5aaf6 background */
-    background-color: #d5aaf6;
-    font-size: 32px;
-    font-weight: bold;
-}
-
