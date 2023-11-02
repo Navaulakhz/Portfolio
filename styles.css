@@ -295,6 +295,6 @@ footer {
 
  @media (min-width: 600px) and (max-width: 1024px) {
             #portfolio > p {
-                font-size: 8px; /* increasing font size for tablet view */
+                font-size: 5px; /* increasing font size for tablet view */
                 padding: 15px;
             }
