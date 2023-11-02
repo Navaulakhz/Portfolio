@@ -136,12 +136,14 @@ body {
 }
 
 .contact-form input[type="submit"] {
-    background-color: #ff4500;
-    color: #fff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+     color: #ffffff; /* Retaining the white foreground color */
+    background-color: #cc3700; /* Darkened background color to achieve the required contrast ratio */
+    font-size: 13.3333px;
+    font-weight: normal;
 }
 
 .contact-form input[type="submit"]:hover {
@@ -268,11 +270,5 @@ footer {
    color: #7a4ca0; /* Adjusted foreground color to achieve the required contrast ratio of 4.5:1 */
     background-color: #d5aaf6;
     font-size: 17.6px;
-    font-weight: normal;
-}
-input[type="submit"] {
-    color: #ffffff; /* Retaining the white foreground color */
-    background-color: #cc3700; /* Darkened background color to achieve the required contrast ratio */
-    font-size: 13.3333px;
     font-weight: normal;
 }
